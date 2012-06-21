@@ -1,0 +1,519 @@
+/* 
+WOO CUSTOM STYLESHEET
+---------------------
+
+Instructions:
+
+Add your custom styles in this file instead of style.css so it 
+is easier to update the theme. Simply copy an existing style 
+from style.css to this file, and modify it to your liking. */
+
+
+body {
+	background-color: #EAEEEF;
+	font-family: Helvetica, sans-serif;
+	overflow-x: hidden;
+}
+
+body.home {
+	margin-top: 71px!important;
+}
+
+body.parent-pageid-6, body.page-template-template-portfolio-php {
+	margin-top: 120px!important;
+}
+
+.wrapper {
+	width: 1000px;
+  	margin-right: auto;
+  	margin-left: auto;
+  	*zoom: 1;
+  	background-color: #F2F5F6;
+}
+
+.wrapper:before,
+.wrapper:after {
+  display: table;
+  content: "";
+}
+
+.wrapper:after {
+  clear: both;
+}
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  *zoom: 1;
+}
+
+.container:before,
+.container:after {
+  display: table;
+  content: "";
+}
+
+.container:after {
+  clear: both;
+}
+
+p {
+	font-family: "museo-sans", sans-serif;
+	color: #383B43;
+}
+
+/* Navbar and contained elements*/
+
+.navbar {
+	min-height: 85px!important;
+	overflow: visible;
+}
+
+.navbar-fixed-top {
+	position: fixed;
+	right: 0;
+	left: 0;
+	z-index: 1030;
+	margin-bottom: 0;
+}
+
+.navbar-fixed-top {
+	top: -7px;
+}
+
+.navbar-fixed-top .navbar-inner, .navbar-fixed-bottom .navbar-inner {
+	padding-right: 0;
+	padding-left: 0;
+}
+
+.navbar-fixed-top .navbar-inner {
+	background: transparent url('http://localhost:8888/suadellc-2013/wp-content/uploads/2012/06/banner-sprite.png') top center no-repeat;
+	min-height: 85px!important;
+}
+
+.navbar-fixed-top .container, .navbar-fixed-bottom .container {
+	width: 940px;
+}
+
+.navbar-fixed-top .container hgroup {
+	display: none;
+}
+
+.navbar .brand {
+	display: block;
+	float: left;
+	padding: 32px 20px 12px;
+	font-size: inherit;
+	font-weight: inherit;
+	line-height: inherit;
+}
+
+.navbar-inner .container ul {
+	margin-top: 34px;
+	margin-left: 23px;
+}
+
+.navbar-inner .container ul li a {
+	color: #fff;
+}
+
+.nav li.current_page_item > a, .nav li.current_page_parent > a, .nav li.current-menu-ancestor > a, .nav li.current-cat > a, .nav li.li.current-menu-item > a {
+	background: transparent;
+	text-shadow: none;
+}
+
+#navigation {
+	font: 500 14px "museo-sans", sans-serif;
+}
+
+#top {
+background: transparent url('http://localhost:8888/suadellc-2013/wp-content/uploads/2012/06/banner-sprites.png') no-repeat center -85px;
+position: fixed;
+top: 71px;
+width: 100%!important;
+height: 75px!important;
+font: 600 12px "museo-sans", sans-serif;
+letter-spacing: -1px;
+padding: 0;
+}
+
+#top .container {
+	width: 960px;
+}
+
+#top-nav {
+	float: right;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+/*  Header & Banner */
+
+#banner .container {
+	width: 1000px!important;
+}
+
+/* Featured Slider */
+
+.controls-container {
+	width: 100%!important;
+}
+
+/* Intro Section - Homepage */
+
+section#intro {
+background: transparent url("http://localhost:8888/suadellc-2013/wp-content/uploads/2012/06/banner-sprites.png") no-repeat center -85px;
+border: none;
+height: 75px!important;
+margin: 0 auto!important;
+padding: 0;
+}
+
+section#intro {
+	position: relative;
+	top: -8px;
+	z-index: 1029;
+}
+
+section#intro .container {
+	width: 960px;
+	padding-top: 17px;
+}
+
+section#intro h1 {
+font-family:"utopia-std", serif;
+color: #6D7382;
+font-weight: 400;
+font-size: 24px;
+letter-spacing: -1px;
+text-align: center;
+}
+
+/*  Portfolio Section - Homepage  */
+
+.home-section header h1 {
+letter-spacing: .1em;
+font: 400 11px "museo-sans", sans-serif;
+color: #8D969A;
+text-transform: uppercase;
+}
+
+/*  Sidebar  */
+
+#sidebar {
+	margin-right: 20px;
+	width: 179px;
+}
+
+#sidebar .primary {
+	padding: 10px 0 10px 10px;
+}
+
+.widget {
+	margin-bottom: 0;
+}
+
+.widget h3 {
+	letter-spacing: .1em;
+	line-height: 1;
+	color: #8D969A;
+	text-transform: uppercase;
+	font: 400 11px "museo-sans", sans-serif;
+	border-bottom-width: 0;
+	margin: 0;
+	padding: 10px 0 10px 10px;
+	background-color: #fff;
+}
+
+/*  Index Page  */
+
+.home-section {
+	border: none;	
+}
+
+.home .wrapper {
+	position: relative;
+	top: -15px;
+}
+
+/* Portfolio Page  */
+
+#portfolio-gallery h1 {
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+body.page-template-template-portfolio-php #content {
+	max-width: 960px!important;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*  Footer  */
+
+div#footer-spacer {
+	height: 50px;
+	max-width: 1000px;
+	background-color: #F2F5F6;
+	margin: 0 auto;
+}
+
+#footer {
+	width: 100%;
+	height: 269px;
+	padding: 0;
+}
+
+#footer {
+	background: transparent url("http://localhost:8888/suadellc-2013/wp-content/uploads/2012/06/banner-sprites.png") no-repeat center -161px;
+	border: none;
+	position: relative;
+	top: 0;
+	bottom: 0;
+}
+
+#footer .container {
+	width: 960px;
+}
+
+footer .container section {
+	height: 95px;
+	width: 234px;
+	float: left;
+	border-bottom: 1px solid #2D3339;
+	border-right: 1px solid #2D3339;
+}
+
+footer h5 {
+	font: 400 13px "museo-sans",sans-serif;
+	line-height: 1;
+	text-transform: uppercase;
+	color: #8D969A;
+	margin: 30px 0 15px 15px;
+}
+
+
+footer a {
+	font: 600 18px "utopia-std", serif;
+	color: #fff;
+	margin-left: 15px;
+}
+
+
+.tk-facitweb {}
+.tk-acta-display {}
+
+
+
+#content { z-index: 0; padding: 0; position: relative; background: transparent;  }
+
+#banner { padding: 0; position: relative; }
+
+.col-full { left: 20px; position: relative; }
+
+#content .col-full { max-width: 960px; }
+
+
+.home .featured-wrap {
+	background-color: #0c0c0c;
+}
+.page-template div#content, .single div#content, .archive div#content, { 
+position: relative;
+}
+
+.home div#content {
+	top: 0;
+	background: #F2F5F6;
+}
+
+.page-template-template-portfolio-php div#content h1, .post-type-archive-portfolio div#content h1 {
+	font-family: "facitweb", sans-serif;
+}
+
+.post-type-archive-portfolio div#top div#portfolio, .page-template-template-portfolio-php div#top div#portfolio {
+	display: none;
+}
+
+.page-template-template-portfolio-php div#content div#port-tags, .post-type-archive-portfolio div#content div#port-tags {
+	display: none;
+}
+
+.page-template-template-portfolio-php #footer, .post-type-archive-portfolio #footer {
+	top: 17px;
+}
+
+.page-id-178 div#content, .page-id-199 div#content {
+	top: 110px;
+}
+
+.post header h1, .post header h1 a:link, .post header h1 a:visited {
+	font-family: "acta-display", serif;
+	color: #2B3C4A;
+	text-transform: none;
+	font-size: 32px;
+}
+
+ /*.page-id-7 div#content {
+	top: 115px;
+} */
+
+.single-portfolio-gallery .video {
+	z-index: 0;
+}
+
+.portfolio-item h2 a {
+	color: #480D48;
+}
+
+.post-type-archive-portfolio #top #port-tags a, .page-template-template-portfolio-php #top #port-tags a {
+	font-family: "museo-sans", sans-serif;
+	color: #8B949C;
+    padding: 6px 10px;
+    text-decoration: none;
+    font-size: 12px;
+    text-shadow: none;
+    text-transform: none;
+    letter-spacing: -1px;
+}
+
+.post-type-archive-portfolio #top #port-tags a:hover, .page-template-template-portfolio-php #top #port-tags a:hover {
+    background: transparent;
+    color: #fff;
+}
+
+.post-type-archive-portfolio #top #port-tags a.current, .page-template-template-portfolio-php #top #port-tags a.current {
+    background: #4B5965;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    color: #fff;
+  }
+
+
+
+.post-type-archive-portfolio #top #port-tags, .page-template-template-portfolio-php #top #port-tags {
+margin-left: 20px;
+margin-top: 20px;
+float: right;
+}
+
+#header #logo {
+margin: 16px 0 0 0;
+}
+
+.featured-wrap {
+margin-top:69px!important;
+width:100%!important;
+background:#EAEEEF;
+border-bottom-width: 0!important;
+}
+
+#featured {
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  -o-box-shadow: none;
+}
+
+.home-section {
+margin: 0;
+}
+
+section#clients .col-full {
+background: #FFFFFF;
+position: relative;
+left: 20px;
+}
+
+section#clients .container, .home div#content {
+margin:0 auto;
+max-width: 960px;
+text-transform:none!important;
+overflow: hidden;
+}
+
+section#clients h3 {
+border-top: 0;
+padding-top: 40px;
+text-align: center;
+letter-spacing: .1em;
+line-height: 1;
+color: #8D969A;
+text-transform: uppercase;
+font: 400 11px "museo-sans", sans-serif;
+}
+
+
+section#clients .container ul li {
+float: left;
+display: inline;
+}
+
+#header .col-full {
+	position: relative;
+	left: 20px;
+}
+
+#main .center-text {
+	margin-left: 160px;
+	margin-top: 20px;
+}
+
+#main .center-text h1 {
+	padding-bottom: 45px;
+	padding-top: 45px;
+	line-height: 1px;
+	font-size: 5.2em;
+	font-family:"utopia-std", serif;
+	font-weight: 400;
+	letter-spacing: -1px;
+	text-transform: none;
+}
+
+.page-id-199 .center-text h1 {
+	display: none;
+}
+
+.page-id-199 .center-text h3 {
+	font-family: "acta-display", serif;
+	font-size: 1.75em;
+	font-weight: 600;
+	line-height: .95em;
+	text-transform: none;
+}
+
+#main .center-text h4 {
+	font-family: "facitweb", sans-serif;
+	font-size: 10px;
+	font-weight: 400;
+}
+
+#main .center-text p {
+	font: 300 16px "museo-sans", sans-serif;
+	color: #383B43;
+	line-height: 28px;
+}
+
+#main .center-text p span {
+	font-weight: 500;
+}
+
+#main .center-text ul {
+	margin: 0;
+	padding: 0;
+}
+
+#main .center-text ul li {
+	list-style-type: none;
+	font-family: "facitweb", sans-serif;
+	font-size: 16px;
+	font-weight: 600;
+	color: #480D48;
+	line-height: 28px;
+}
+
+.post .post-body, .search-results .features .post-body, .search-results .page .post-body, .search-results .type-product .post-body, .search-results .type-portfolio .post-body {
+	float: left;
+	width: 55.88%
+}
