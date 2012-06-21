@@ -62,6 +62,8 @@ p {
 	color: #383B43;
 }
 
+div.mr_social_sharing_wrapper {}
+
 /* Navbar and contained elements*/
 
 .navbar {
@@ -323,6 +325,11 @@ body.single .entry p {
 	font-weight: 300;
 	line-height: 1.8;
 	margin-bottom: 25px;
+}
+
+#post-entries {
+	border: none;
+	display: none;
 }
 
 /*  Footer  */
