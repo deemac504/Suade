@@ -233,7 +233,7 @@ text-transform: uppercase;
 
 .home .wrapper {
 	position: relative;
-	top: -15px;
+	top: 0;
 }
 
 /* Portfolio Page  */
@@ -248,6 +248,81 @@ body.page-template-template-portfolio-php #content {
 	max-width: 960px!important;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+/*  Blog & News-Events Page  */
+
+body.archive .wrapper, body.page-template-template-blog-php .wrapper {
+	position: relative;
+	top: 52px;
+}
+
+body.archive .archive_header, body.archive .archive-description {
+	display: none;
+}
+
+body.page-template-template-blog-php article {
+	border-bottom: solid #E1E5E6 1px;
+	padding-bottom: 15px;
+}
+
+body.page-template-template-blog-php footer.post-more {
+	display: none;
+}
+
+body.archive #main header p, body.page-template-template-blog-php #main header p {
+	letter-spacing: .1em;
+	font: 400 11px "museo-sans", sans-serif;
+	color: #8D969A;
+	text-transform: uppercase;
+}
+
+
+body.archive .wrapper .container, body.page-template-template-blog-php .wrapper .container {
+	padding-top: 40px;
+	max-width: 940px!important;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*  Blog Single & News-Events Single  */
+
+body.single .wrapper {
+	position: relative;
+	top: 52px;
+}
+
+body.single .wrapper .container {
+	padding-top: 40px;
+	max-width: 940px!important;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+body.single aside.post-meta {
+	display: none;
+}
+
+
+body.single .post header h1 {
+	font-size: 42px;
+	margin-bottom: 38px;
+}
+
+body.single p.post-category {
+	display: none;
+}
+
+body.single .post .post-body {
+	margin-left: 0;
+	width: 100%;
+}
+
+body.single .entry p {
+	font-size: 15px;
+	font-weight: 300;
+	line-height: 1.8;
+	margin-bottom: 25px;
 }
 
 /*  Footer  */
@@ -269,12 +344,13 @@ div#footer-spacer {
 	background: transparent url("http://localhost:8888/suadellc-2013/wp-content/uploads/2012/06/banner-sprites.png") no-repeat center -161px;
 	border: none;
 	position: relative;
-	top: 0;
+	top: -10px;
 	bottom: 0;
 }
 
 #footer .container {
 	width: 960px;
+	padding-top: 27px;
 }
 
 footer .container section {
@@ -339,17 +415,14 @@ position: relative;
 	display: none;
 }
 
-.page-template-template-portfolio-php #footer, .post-type-archive-portfolio #footer {
-	top: 17px;
-}
-
 .page-id-178 div#content, .page-id-199 div#content {
 	top: 110px;
 }
 
 .post header h1, .post header h1 a:link, .post header h1 a:visited {
-	font-family: "acta-display", serif;
+	font-family: "utopia-std", serif;
 	color: #2B3C4A;
+	font-weight: 400;
 	text-transform: none;
 	font-size: 32px;
 }
@@ -515,5 +588,6 @@ display: inline;
 
 .post .post-body, .search-results .features .post-body, .search-results .page .post-body, .search-results .type-product .post-body, .search-results .type-portfolio .post-body {
 	float: left;
-	width: 55.88%
+	margin-left: 60px;
+	width: 40%
 }

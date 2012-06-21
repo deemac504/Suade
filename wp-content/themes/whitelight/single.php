@@ -28,9 +28,11 @@
 	$settings = woo_get_dynamic_values( $settings );
 ?>
        
+    <div class="wrapper">
+    
     <div id="content">
     	
-    	<div class="col-full">
+    	<div class="container">
     		
     		<?php if ( isset( $woo_options['woo_breadcrumbs_show'] ) && $woo_options['woo_breadcrumbs_show'] == 'true' ) { ?>
 				<section id="breadcrumbs">
@@ -113,5 +115,7 @@
         </div>
 
     </div><!-- #content -->
+    
+    </div><!--  /.wrapper   -->
 		
 <?php get_footer(); ?>

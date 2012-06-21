@@ -1,7 +1,10 @@
 <?php get_header(); ?>
     
+    <div class="wrapper">
+    
     <div id="content">
-    	<div class="col-full">
+    	
+    	<div class="container">
     		
     		<?php if ( $woo_options['woo_breadcrumbs_show'] == 'true' ) { ?>
 				<section id="breadcrumbs">
@@ -40,7 +43,7 @@
 		        <div class="fix"></div>
     	
 			<section id="main" class="col-left">
-	
+				
 			<?php if (have_posts()) : $count = 0; ?>
 	        
 				<?php /* Start the Loop */ ?>
@@ -65,10 +68,11 @@
 	        <?php endif; ?>  
 	    
 				<?php woo_pagenav(); ?>
-	                
+					                
 			</section><!-- /#main -->
 	
 	        <?php get_sidebar(); ?>
+		</div>
 		</div>
     </div><!-- /#content -->
 		

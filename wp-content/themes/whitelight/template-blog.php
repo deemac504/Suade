@@ -22,9 +22,11 @@
 	$settings = woo_get_dynamic_values( $settings );
 ?>
     <!-- #content Starts -->
+    <div class="wrapper">
+    
     <div id="content">
     
-    	<div class="col-full">
+    	<div class="container">
     	
     		<?php if ( isset( $woo_options['woo_breadcrumbs_show'] ) && $woo_options['woo_breadcrumbs_show'] == 'true' ) { ?>
 				<section id="breadcrumbs">
@@ -34,7 +36,7 @@
     
 	        <!-- #main Starts -->
 	        <section id="main" class="col-left">       
-	
+		        
 	        <?php
 	        	if ( get_query_var( 'paged') ) { $paged = get_query_var( 'paged' ); } elseif ( get_query_var( 'page') ) { $paged = get_query_var( 'page' ); } else { $paged = 1; }
 	        	
@@ -80,6 +82,8 @@
 		
 		</div>
 
-    </div><!-- /#content -->    
+    </div><!-- /#content -->   
+    
+    </div><!-- /.wrapper   --> 
 		
 <?php get_footer(); ?>
