@@ -112,8 +112,9 @@ jQuery(document).ready(function() {
 //-->!]]>
 </script>
 
+	<div class="wrapper">
     <div id="content">
-    	<div class="col-full">
+    	<div class="container">
     	
     	<?php if ( isset( $woo_options['woo_breadcrumbs_show'] ) && $woo_options['woo_breadcrumbs_show'] == 'true' ) { ?>
 			<section id="breadcrumbs">
@@ -229,5 +230,6 @@ jQuery(document).ready(function() {
 	
 	</div>
     </div><!-- /#content -->
+    </div><!-- /.wrapper   -->
 
 <?php get_footer(); ?>
